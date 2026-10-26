@@ -9,10 +9,6 @@ app = FastAPI()
 
 
 
-
-
-
-
 class Officer(BaseModel):
     name: str
     badge_id: int
